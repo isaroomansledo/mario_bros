@@ -621,7 +621,7 @@ PlayerSettings:
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
     Build: 0
-    Collab: 0
+    Collab: 1
     UNet: 1
   luminIcon:
     m_Name: 
@@ -635,10 +635,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 06e4b85b-486b-4a8c-b586-31c60bbae8ff
+  cloudProjectId: cc8b9b78-acce-4475-9229-edf6dba1e034
   framebufferDepthMemorylessMode: 0
   projectName: 2DPlatformer
-  organizationId: dw_2001
+  organizationId: michaelajurkovicova
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
