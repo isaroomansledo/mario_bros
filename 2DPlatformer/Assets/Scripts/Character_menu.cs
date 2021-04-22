@@ -20,12 +20,12 @@ public class Character_menu : MonoBehaviour
 
     public void ChangeColour()
     {
-        if (colourID < 9)
+        if (colourID < 5)
         {
             colourID++;
             Debug.Log(colourID);
         }
-        else if (colourID == 9)
+        else if (colourID == 5)
         {
             colourID = 0;
             Debug.Log(colourID);
