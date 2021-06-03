@@ -263,9 +263,7 @@ MonoBehaviour:
     D - Move Right
 
     W /
-    SPACE - Jump
-
-    X - Collect Coins'
+    SPACE - Jump'
 --- !u!222 &93902488
 CanvasRenderer:
   m_ObjectHideFlags: 0

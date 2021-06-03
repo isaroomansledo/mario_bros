@@ -6,7 +6,7 @@ public class Counter : MonoBehaviour
 {
     public void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player" && Input.GetKey("x"))
+        if (collision.gameObject.tag == "Player")
         {
             ScoreTextScript.coinAmount += 1;
             gameObject.SetActive(false);
