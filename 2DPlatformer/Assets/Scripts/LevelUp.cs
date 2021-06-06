@@ -13,7 +13,7 @@ public class LevelUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
         coinAmountRequired = 3;
     }
     // Update is called once per frame
@@ -27,7 +27,7 @@ public class LevelUp : MonoBehaviour
     {
         LoadNextLevel();
         ScoreTextScript.coinAmount = 0;
-        coinAmountRequired += 2;
+        coinAmountRequired += 5;
     }
     //function to check if you have what is required for next level
     public void OnTriggerEnter2D(Collider2D other)

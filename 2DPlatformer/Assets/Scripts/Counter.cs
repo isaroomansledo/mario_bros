@@ -1,17 +1,17 @@
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Counter : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.tag=="Player")
+        if (collision.gameObject.tag == "Player")
         {
-          ScoreTextScript.coinAmount += 1;
-          Destroy (gameObject);
+            ScoreTextScript.coinAmount += 1;
+            gameObject.SetActive(false);
+           
         }
-        
+
     }
 }

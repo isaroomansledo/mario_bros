@@ -12,7 +12,7 @@ public class ScoreTextScript : MonoBehaviour
         text = GetComponent<Text>();
     }
 
-
+    
     void Update()
     {
         text.text = coinAmount.ToString();
