@@ -13,13 +13,13 @@ public class LevelUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
         coinAmountRequired = 3;
     }
     // Update is called once per frame
     //function for level up
     public void LoadNextLevel()
     {
+        
         int scene = SceneManager.GetActiveScene().buildIndex + 1;
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }

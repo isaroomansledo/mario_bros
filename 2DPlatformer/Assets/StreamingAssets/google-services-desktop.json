@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "367643291123",
+    "project_id": "super-physio-bros",
+    "storage_bucket": "super-physio-bros.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367643291123:android:b705692da4bab082617686",
+        "android_client_info": {
+          "package_name": "com.Company.ProductName"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367643291123-q24nabdseo5fd64t76nqjhbg1rha7ad0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Company.ProductName",
+            "certificate_hash": "3f242689455287bb0fc64da5bb1c279ff4578a7d"
+          }
+        },
+        {
+          "client_id": "367643291123-n4ju5d1626rtilp8rnk8eit2k36jc7ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUFychDDlDGFIlOrf79XxLlPOLQOyP-EQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367643291123-n4ju5d1626rtilp8rnk8eit2k36jc7ga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
