@@ -24,6 +24,11 @@ public class Menu_Start : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void loginpage()
+    {
+        SceneManager.LoadScene(5);
+    }
+
     public void QuitGame()
     {
         Debug.Log("Quit!");
