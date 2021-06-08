@@ -12,8 +12,9 @@ public class User
     public string nowtime;
     private int scene;
     public int level;
-    
-    
+    public string time;
+
+
 
     public User()
     {
@@ -21,6 +22,7 @@ public class User
         userScore = ScoreTextScript.coinAmount;
         nowtime = ScoreTextScript.time_now;
         scene = ScoreTextScript.level;
+        time = timer2.finish_time;
         if (scene == 2)
             level = 1;
         if (scene == 3)
