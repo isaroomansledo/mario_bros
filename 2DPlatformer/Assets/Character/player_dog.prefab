@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6971971454269885997}
   - component: {fileID: 6971971454269886002}
   - component: {fileID: 6971971454269885995}
+  - component: {fileID: 5509124095768379857}
   m_Layer: 8
   m_Name: player_dog
   m_TagString: Player
@@ -31,7 +32,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6971971454269886003}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.22, y: -3.11, z: 0}
+  m_LocalPosition: {x: 1.22, y: -3.11, z: 1}
   m_LocalScale: {x: 0.7845608, y: 0.7745386, z: 1}
   m_Children:
   - {fileID: 6971971454409145911}
@@ -214,6 +215,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &5509124095768379857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6971971454269886003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f29d0a3d1974344a62d73c914c8d6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 0
+  scenename: 
+  buildIndex: 0
 --- !u!1 &6971971454409145908
 GameObject:
   m_ObjectHideFlags: 0

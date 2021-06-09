@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: d15e0488fb77ed444b78ca2db5aeb585
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Character_Page.unity
     guid: a9e0df33ef59c3545a460570311dbf8f
   - enabled: 1
@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Loginpage.unity
     guid: d3c095d7e7b30644c925998a0b5842a5
+  - enabled: 1
+    path: Assets/Scenes/Character Selection Menu.unity
+    guid: d88da844d07162f428e89ef6f1c78bdd
   m_configObjects: {}

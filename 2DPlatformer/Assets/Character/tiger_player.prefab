@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 9179355593411595732}
   - component: {fileID: 9179355593411595735}
   - component: {fileID: 9179355593411595734}
+  - component: {fileID: -2315440731295510891}
   m_Layer: 8
   m_Name: tiger_player
   m_TagString: Player
@@ -61,7 +62,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9179355593411595729}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.098, y: -3.006, z: 0}
+  m_LocalPosition: {x: -7.098, y: -3.006, z: 1}
   m_LocalScale: {x: 0.7708207, y: 0.8018204, z: 1}
   m_Children:
   - {fileID: 9179355593023836374}
@@ -244,6 +245,21 @@ MonoBehaviour:
   controller: {fileID: 9179355593411595733}
   animator: {fileID: 9179355593411595723}
   runSpeed: 40
+--- !u!114 &-2315440731295510891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9179355593411595729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f29d0a3d1974344a62d73c914c8d6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 0
+  scenename: 
+  buildIndex: 0
 --- !u!1 &9179355594415608603
 GameObject:
   m_ObjectHideFlags: 0
