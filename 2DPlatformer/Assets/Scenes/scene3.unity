@@ -408,7 +408,7 @@ PrefabInstance:
     - target: {fileID: 3748291794265586601, guid: 724777d47ec1002419337878f36a0b10,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3748291794265586601, guid: 724777d47ec1002419337878f36a0b10,
         type: 3}
@@ -484,6 +484,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CollisionDetection
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040104893183186624, guid: 724777d47ec1002419337878f36a0b10,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040104893183186624, guid: 724777d47ec1002419337878f36a0b10,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1592901209
       objectReference: {fileID: 0}
     - target: {fileID: 9040104893183186624, guid: 724777d47ec1002419337878f36a0b10,
         type: 3}
@@ -1364,7 +1374,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 92905205}
+  m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 5
@@ -2078,7 +2088,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1396134341
 GameObject:
