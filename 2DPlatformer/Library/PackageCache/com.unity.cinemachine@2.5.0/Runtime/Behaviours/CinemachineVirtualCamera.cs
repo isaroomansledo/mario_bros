@@ -510,13 +510,11 @@ namespace Cinemachine
             base.OnTargetObjectWarped(target, positionDelta);
         }
 
-        
-
-    /// <summary>If we are transitioning from another vcam, grab the position from it.</summary>
-    /// <param name="fromCam">The camera being deactivated.  May be null.</param>
-    /// <param name="worldUp">Default world Up, set by the CinemachineBrain</param>
-    /// <param name="deltaTime">Delta time for time-based effects (ignore if less than or equal to 0)</param>
-    public override void OnTransitionFromCamera(
+        /// <summary>If we are transitioning from another vcam, grab the position from it.</summary>
+        /// <param name="fromCam">The camera being deactivated.  May be null.</param>
+        /// <param name="worldUp">Default world Up, set by the CinemachineBrain</param>
+        /// <param name="deltaTime">Delta time for time-based effects (ignore if less than or equal to 0)</param>
+        public override void OnTransitionFromCamera(
             ICinemachineCamera fromCam, Vector3 worldUp, float deltaTime)
         {
             base.OnTransitionFromCamera(fromCam, worldUp, deltaTime);
