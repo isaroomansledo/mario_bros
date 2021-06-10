@@ -19,7 +19,7 @@ public class LevelUp : MonoBehaviour
     //function for level up
     public void LoadNextLevel()
     {
-        
+
         int scene = SceneManager.GetActiveScene().buildIndex + 1;
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }
@@ -37,7 +37,7 @@ public class LevelUp : MonoBehaviour
             Debug.Log("We have hit the flag trigger");
             if ( ScoreTextScript.coinAmount >= coinAmountRequired)
             {
-                RankUp();
+                RankUp(); // Function that will load next level
             }
         }
     }
